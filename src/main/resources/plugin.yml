@@ -1,0 +1,4 @@
+name: Anticheat
+version: '${project.version}'
+main: me.missingdrift.anticheat.Anticheat
+authors: [ MissingDrift ]

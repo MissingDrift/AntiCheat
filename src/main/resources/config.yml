@@ -1,0 +1,16 @@
+# CONFIGURATION
+#
+# PLACEHOLDERS
+# %PLAYER% = The player who was cheating. 
+# %PREFIX% = The general prefix.
+
+Prefix: '&7[&cAnticheat&7]&r'
+Punishment:
+  LagBack: false
+  Command:
+    Enabled: true
+    Execute: '/kick %PLAYER% %PREFIX% &cUnfair Advantage.'
+  Announce:
+    Enabled: true
+    Message: '%PREFIX% &chas removed &7%PLAYER% &cfor using unfair advantages.'
+
